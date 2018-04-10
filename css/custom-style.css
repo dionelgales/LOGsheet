@@ -1,0 +1,36 @@
+
+#container {
+	padding: 100px 0px;
+}
+
+#plus-header {
+	background: linear-gradient(60deg,#ec407a,#d81b60);
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+	margin: 0 10px;
+	margin-top: -15px;
+	border-radius: 2px;
+}
+
+#pro-header {
+	background: linear-gradient(60deg,#ffa726,#fb8c00);
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+	margin: 0 10px;
+	margin-top: -15px;
+	border-radius: 2px;
+}
+
+#premium-header {
+	background: linear-gradient(60deg,#ef5350,#e53935);
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+	margin: 0 10px;
+	margin-top: -15px;
+	border-radius: 2px;
+}
+
+#mods-header {
+	background: linear-gradient(60deg,#ef5350,#e53935);
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+	margin: 0 10px;
+	margin-top: -15px;
+	border-radius: 2px;
+}
