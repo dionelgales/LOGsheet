@@ -47,6 +47,7 @@ body {
 .card .record-header {
 	background-color: #00bcd4;
 	background: linear-gradient(60deg,#ef5350,#e53935);
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
 	margin: 0 10px;
 	margin-top: -15px;
 	border-radius: 2px;
@@ -54,4 +55,36 @@ body {
 
 .card h4.card-title {
 	font-size: 28px;
+	margin-bottom: 0px;
+}
+
+.dateform {
+	margin-bottom: 0px;
+}
+
+.record-body {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.btn {
+	display: flex;
+	align-items: center;
+}
+
+.btn-date {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.datefrom {
+	margin-bottom: 0px;
+	margin-right: 20px;
+}
+
+.dateto {
+	margin-bottom: 0px;	
+}
+ .date {
+	margin-right: 5px;
 }

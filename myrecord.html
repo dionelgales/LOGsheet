@@ -15,7 +15,7 @@
     <!-- Custom Style -->
     <link rel="stylesheet" type="text/css" href="css/custom-style.css"></li>
 
-	<title>try try</title>
+	<title>Logsheet</title>
 
 </head>
 
@@ -24,20 +24,25 @@
 	<div class="container">
 		<div class="card">
 			<div class="card-header text-white record-header">
-				<div class="row">
-					<div class="col-md-6">
-						<h4 class="card-title">My Record</h4>
-					</div>
-					<div class="col-md-3">
-						
-					</div>
-					<div class="col-md-3">
-						
-					</div>
-				</div>
-			</div>
+				<form class="dateform">
+					<div class="row">
 
-			<div class="card-body">
+						<div class="col-md-8">
+							<h4 class="card-title">My Record</h4>
+						</div>
+						
+						<div class="col-md-4"> 
+							<div class="btn-group btn-date" role="group">
+								<button type="button" class="btn btn-light datefrom"><i class="material-icons date">date_range </i> 04/12/2018</button> 
+								<button type="button" class="btn btn-light dateto"><i class="material-icons date">date_range </i> 04/13/2018</button>
+							</div>
+						</div>
+
+					</div> <!-- row -->
+				</form> <!-- form -->
+			</div> <!-- card-header -->
+
+			<div class="card-body record-body">
 				<div class="table-responsive">
 					<table class="table">
 
@@ -89,9 +94,9 @@
 								<td>4/9/2018 10:15:00 AM</td>
 								<td></td>
 								<td class="text-center">
-									<i class="material-icons">done</i> 
-									<i class="material-icons">create</i> 
-									<i class="material-icons">clear</i>
+									<i class="material-icons md-48">done</i> 
+									<i class="material-icons md-48">create</i> 
+									<i class="material-icons md-48">clear</i>
 								</td>
 							</tr>
 						</tbody>
