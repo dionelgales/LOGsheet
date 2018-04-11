@@ -1,6 +1,7 @@
 
-#container {
-	padding: 100px 0px;
+body {
+	color: #7a7a7a;
+	font-weight: 300;
 }
 
 #plus-header {
@@ -33,4 +34,24 @@
 	margin: 0 10px;
 	margin-top: -15px;
 	border-radius: 2px;
+}
+
+.container {
+	padding: 100px 0px;
+}
+
+.card {
+	box-shadow: 0 1px 4px 0 rgba(0,0,0,.14);
+}
+
+.card .record-header {
+	background-color: #00bcd4;
+	background: linear-gradient(60deg,#ef5350,#e53935);
+	margin: 0 10px;
+	margin-top: -15px;
+	border-radius: 2px;
+}
+
+.card h4.card-title {
+	font-size: 28px;
 }
