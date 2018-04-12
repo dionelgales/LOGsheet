@@ -21,92 +21,105 @@
 
 <body>
 	
-	<div class="container">
-		<div class="card">
-			<div class="card-header text-white record-header">
-				<form class="dateform">
-					<div class="row">
+	<div class="wrapper"> 
+		<div class="container">
 
-						<div class="col-md-8">
-							<h4 class="card-title">My Record</h4>
-						</div>
-						
-						<div class="col-md-4"> 
-							<div class="btn-group btn-date" role="group">
-								<button type="button" class="btn btn-light datefrom"><i class="material-icons date">date_range </i> 04/12/2018</button> 
-								<button type="button" class="btn btn-light dateto"><i class="material-icons date">date_range </i> 04/13/2018</button>
+			<div class="card">
+
+				<div class="card-header text-white record-header">
+					<form class="dateform">
+						<div class="row">
+
+							<div class="col-md-8">
+								<div class="btn-group btn-date" role="group">
+									<h4 class="card-title">My Record </h4>
+								</div>
 							</div>
-						</div>
+							
+							<div class="col-md-4"> 
+								<div class="btn-group btn-date" role="group">
+									<button type="button" class="btn btn-light datefrom"><i class="material-icons date-icon">date_range </i> 04/12/2018</button>
+									<span class="date-separator">─</span>
+									<button type="button" class="btn btn-light dateto"><i class="material-icons date-icon">date_range </i> 04/13/2018</button>
+								</div>
+							</div>
 
-					</div> <!-- row -->
-				</form> <!-- form -->
-			</div> <!-- card-header -->
+						</div> <!-- row -->
+					</form> <!-- form -->
+				</div> <!-- card-header -->
 
-			<div class="card-body record-body">
-				<div class="table-responsive">
-					<table class="table">
+				<div class="card-body record-body">
 
-						<thead>
-							<tr>
-								<th>EID</th>
-								<th>Account</th>
-								<th class="text-center">Type</th>
-								<th class="text-center">Package</th>
-								<th>Date Start</th>
-								<th>Date End</th>
-								<th class="text-center">Actions</th>
+					<div class="table-responsive">
+						<table class="table">
 
-							</tr>
-						</thead>
+							<thead>
+								<tr>
+									<th>EID</th>
+									<th>Account</th>
+									<th class="text-center">Type</th>
+									<th class="text-center">Package</th>
+									<th>Date Start</th>
+									<th>Date End</th>
+									<th class="text-center">Actions</th>
 
-						<tbody>
-							<tr>
-								<td>BLZG6201</td>
-								<td>Bear Claw Landscaping, Inc</td>
-								<td class="text-center">BAU</td>
-								<td class="text-center">PLUS</td>
-								<td>4/9/2018 10:15:00 AM</td>
-								<td>4/9/2018 3:50:00 PM</td>
-								<td class="text-center"> 
-									<i class="material-icons">create</i> 
-									<i class="material-icons">clear</i>
-								</td>
-							</tr>
+								</tr>
+							</thead>
 
-							<tr>
-								<td>BLZG6201</td>
-								<td>Atlantic Cabinet Fronts</td>
-								<td class="text-center">BAU</td>
-								<td class="text-center">PLUS</td>
-								<td>4/9/2018 10:15:00 AM</td>
-								<td>4/9/2018 3:50:00 PM</td>
-								<td class="text-center">
-									<i class="material-icons">create</i> 
-									<i class="material-icons">clear</i>
-								</td>
-							</tr>
+							<tbody>
+								<tr>
+									<td>BLZG6201</td>
+									<td>Bear Claw Landscaping, Inc</td>
+									<td class="text-center">BAU</td>
+									<td class="text-center">PLUS</td>
+									<td>4/9/2018 10:15:00 AM</td>
+									<td>4/9/2018 3:50:00 PM</td>
+									<td class="text-center"> 
+										<i class="material-icons">create</i> 
+										<i class="material-icons">clear</i>
+									</td>
+								</tr>
 
-							<tr>
-								<td>BLZG6201</td>
-								<td>Atlantic Cabinet Fronts</td>
-								<td class="text-center">BAU</td>
-								<td class="text-center">PLUS</td>
-								<td>4/9/2018 10:15:00 AM</td>
-								<td></td>
-								<td class="text-center">
-									<i class="material-icons md-48">done</i> 
-									<i class="material-icons md-48">create</i> 
-									<i class="material-icons md-48">clear</i>
-								</td>
-							</tr>
-						</tbody>
+								<tr>
+									<td>BLZG6201</td>
+									<td>Atlantic Cabinet Fronts</td>
+									<td class="text-center">BAU</td>
+									<td class="text-center">PLUS</td>
+									<td>4/9/2018 10:15:00 AM</td>
+									<td>4/9/2018 3:50:00 PM</td>
+									<td class="text-center">
+										<i class="material-icons">create</i> 
+										<i class="material-icons">clear</i>
+									</td>
+								</tr>
 
-					</table>
-				</div>
-				
-			</div>
-		</div>
-	</div>
+								<tr>
+									<td>BLZG6201</td>
+									<td>Atlantic Cabinet Fronts</td>
+									<td class="text-center">BAU</td>
+									<td class="text-center">PLUS</td>
+									<td>4/9/2018 10:15:00 AM</td>
+									<td></td>
+									<td class="text-center">
+										<i class="material-icons md-48">done</i> 
+										<i class="material-icons md-48">create</i> 
+										<i class="material-icons md-48">clear</i>
+									</td>
+								</tr>
+							</tbody>
+
+						</table>
+					</div>
+
+					<button type="button" class="btn btn-add"><i class="material-icons">add</i></button>
+
+				</div> <!-- card-body -->
+
+			</div> <!-- card -->
+
+		</div> <!-- container -->
+	</div> <!-- wrapper -->
+	
 
 </body>
 </html>
