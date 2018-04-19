@@ -1,0 +1,36 @@
+
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #7a7a7a;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+	box-sizing: border-box;
+	word-wrap: break-word;
+
+}
+
+/*LEFT SIDE*/
+.left-side {
+	background-color: #fff;
+	width: 230px;
+	height: 100vh;
+	position: fixed;
+	box-shadow: 1px 0px 6px 0px rgba(50, 50, 50, 0.1);
+	padding: 20px 20px;
+}	
+
+/*RIGHT SIDE*/
+.right-side {
+	background-color: #f5f5f5;
+	width: calc(100% - 230px);
+	float: right;
+}
+
+.cont {
+	padding: 0;
+}
+
+.right-content {
+	padding: 25px 25px;
+}
