@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700|Roboto:300,400,500,700,900');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1rem;
+	font-weight: 300;
+	line-height: 1.5rem;
+	color: #999;
+}
+
+a {
+	text-decoration: none;
+}
+a:hover {
+
+}
+
+.dg-container {
+	border: 1px solid yellow;
+	width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*mobile*/
+@media (min-width: 576px) {
+	.dg-container {
+		max-width: 540px;
+	}
+}
+/*tablet*/
+@media (min-width: 768px) {
+	.dg-container {
+		max-width: 720px;
+	}
+}
+/*desktop small*/
+@media (min-width: 992px) {
+	.dg-container {
+		max-width: 960px;
+	}
+}
+/*desktop big*/
+@media (min-width: 1200px) {
+	.dg-container {
+		max-width: 1140px;
+	}
+}
+
+.dg-navbar {
+	border: 1px solid red;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem 1rem;
+}
+
+.dg-navbar > .dg-container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.dg-brand {
+	display: inline-block;
+	padding-top: 0.3125rem;
+	padding-bottom: 0.3125rem;
+	margin-right: 1rem;
+	font-size: 1.5rem;
+	line-height: inherit;
+	white-space: nowrap;
+}
+
+.dg-navlist{
+	display: flex;
+	flex-direction: column;
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none;
+}
