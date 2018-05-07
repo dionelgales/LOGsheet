@@ -5,12 +5,32 @@
 	padding: 0;
 }
 
-body {
+body, p {
 	font-family: 'Roboto', sans-serif;
-	font-size: 1rem;
+	font-size: 15px;
 	font-weight: 300;
 	line-height: 1.5rem;
 	color: #999;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Roboto Slab', serif;
+}
+
+h2 {
+	font-weight: 700;
+	font-size: 2.25rem;
+	color: #3c4858;
+}
+
+h3 {
+
+}
+
+h4 {
+	font-weight: 700;
+	font-size: 1.125rem;
+	
 }
 
 .navbar-transparent {
@@ -33,10 +53,43 @@ body {
 }
 
 .page-header {
-	height: 85vh;
-	    background: linear-gradient(to bottom, rgba(51, 51, 51, 0.3), rgba(51, 51, 51, 0.2), rgba(51, 51, 51, 0.2), rgba(51, 51, 51, 0.2));
+	height: 70vh;
+	/*background: linear-gradient(to bottom, rgba(51, 51, 51, 0.3), rgba(51, 51, 51, 0.2), rgba(51, 51, 51, 0.2), rgba(51, 51, 51, 0.2));*/
+	background-color: rgba(0,0,0,0.3);
 }
 
-.navbar-light .navbar-brand {
-	color: #fff;
+.dg-wrapper {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.one {
+	text-align: center;
+}
+
+.info {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.icon-chat {
+	color: #00bcd4;
+}
+
+.icon-verify {
+	color: #4caf50;
+}
+
+.icon-fingerprint {
+	color: #f44336;
+}
+
+.info .icon>i {
+	font-size: 3.85rem;
+}
+
+.info .info-title {
+	color: #3c4858;
+	margin-top: 20px;
+	margin-bottom: 10px;
 }
