@@ -1,56 +1,64 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="utf-8">
+		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<title>sample</title>
 
-		<!-- Bootstrap css -->
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 
-		<!-- Material Icons -->
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+		<!-- font and icon -->
+      	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+
+      	<!-- material design -->
+		<link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
 
 		<!-- Custom style -->
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 
 	</head>
-	<body>
+	<body class="">
 		
-		<nav class="navbar fixed-top navbar-light navbar-expand-lg navbar-transparent">
+		<!-- navigation -->
+		<nav class="navbar navbar-light fixed-top navbar-expand-lg navbar-transparent">
 			<div class="container">
-
-				<a class="navbar-brand" href="">Material Kit PRO</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-   					<span class="navbar-toggler-icon"></span>
-  				</button>
+				<!-- <div class="navbar-translate"> -->
+					<a class="navbar-brand" href="">Material Kit PRO</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+   						<span class="navbar-toggler-icon"></span>
+  					</button>
+				<!-- </div> -->
 				
   				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item"><a class="nav-link" href="">Home</a></li>
 						<li class="nav-item"><a class="nav-link" href="">About</a></li>
+						<li class="nav-item"><a class="nav-link" href="">Services</a></li>
 						<li class="nav-item"><a class="nav-link" href="">Portfolio</a></li>
 						<li class="nav-item"><a class="nav-link" href="">Contact</a></li>
 					</ul>
 				</div>
-
 			</div>
 		</nav>
+		<!-- end of navigation -->
 
+		<!-- KV -->
 		<div class="page-header-wrapper">
-			
 			<div class="page-header">
 				<div class="container">
 
 				</div>
 			</div>
 		</div>
+		<!-- end of KV -->
 		
+		<!-- wrapper one -->
 		<div class="dg-wrapper one">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 ml-auto mr-auto">
-						<h2 class="">Why Our Product Is The Best</h2>
-						<p class="">This is the paragraph where you can write more details about your product. Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious, otherwise he wouldn't scroll to get here. Add a button if you want the user to see more.</p>
+						<h2 class="title">Why our product is the best</h2>
+						<p class="description">This is the paragraph where you can write more details about your product. Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious, otherwise he wouldn't scroll to get here. Add a button if you want the user to see more.</p>
 					</div>
 				</div>
 
@@ -61,7 +69,7 @@
 								<i class="material-icons">chat</i>
 							</div>
 							<h4 class="info-title">Free Chat</h4>
-							<p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+							<p class="description">Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
 						</div>
 					</div>
 					<div class="col-md-4">
@@ -70,7 +78,7 @@
 								<i class="material-icons">verified_user</i>
 							</div>
 							<h4 class="info-title">Verified Users</h4>
-							<p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+							<p class="description">Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
 						</div>
 					</div>
 					<div class="col-md-4">
@@ -79,15 +87,82 @@
 								<i class="material-icons">fingerprint</i>
 							</div>
 							<h4 class="info-title">Fingerprint</h4>
-							<p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+							<p class="description">Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+		<!-- end of wrapper one -->
+
+		<!-- wrapper two -->
+		<div class="dg-wrapper two">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 ml-auto mr-auto">
+						<h2 class="text-center title">Some Of Our Awesome Work</h2>
+						<p class=" text-center description">This is the paragraph where you can write more details about your projects. Keep you user engaged by providing meaningful information.</p>
+						<div class="section-space"></div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-4">
+						<div class="card card-plain">
+							<div class="card-header card-header-image">
+								<img src="images/thumbnail1.jpg">
+								<div class="colored-shadow" style="background-image: url(images/thumbnail1.jpg); opacity: 1;"></div>
+							</div>
+
+							<div class="card-body">
+								<h4 class="card-title">Material Kit Free</h4>
+								<h6 class="card-category">Free UI Kit</h6>
+								<p class="card-description">Material Kit is a Free Bootstrap UI Kit with a fresh, new design inspired by Google's material design. It's a great pleasure to introduce to you the material concepts in an easy to use and beautiful set of components.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="card card-plain">
+							<div class="card-header card-header-image">
+								<img src="images/thumbnail2.jpg">
+								<div class="colored-shadow" style="background-image: url(images/thumbnail2.jpg); opacity: 1;"></div>
+							</div>
+
+							<div class="card-body">
+								<h4 class="card-title">Light Bootstrap Dashboard</h4>
+								<h6 class="card-category">Premium Template</h6>
+								<p class="card-description">Light Bootstrap Dashboard PRO is a Bootstrap Admin Theme designed to look simple and beautiful. Forget about boring dashboards and grab yourself a copy to kickstart new project!</p>
+							</div>
+
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="card card-plain">
+							<div class="card-header card-header-image">
+								<img src="images/thumbnail3.jpg">
+								<div class="colored-shadow" style="background-image: url(images/thumbnail3.jpg); opacity: 1;"></div>
+							</div>
+
+							<div class="card-body">
+								<h4 class="card-title">Get Shit Done Kit PRO</h4>
+								<h6 class="card-category">Premium UI Kit</h6>
+								<p class="card-description">Get Shit Done Kit Pro it's a Bootstrap Kit that comes with a huge number of customisable components. They are pixel perfect, light and easy to use and combine with other elements.</p>
+							</div>
 						</div>
 					</div>
 				</div>
-				
+
+				<div class="row">
+					<div class="col-md-4 ml-auto mr-auto text-center">
+						<button class="btn btn-danger btn-raised">See More Works</button>
+					</div>
+				</div>
+					
 			</div>
 		</div>
-
-
+		<!-- end of wrapper two -->
 
 
 
@@ -110,22 +185,29 @@
 
 
 		<!-- Javascript -->
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+		<script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
 
 
 		<script type="text/javascript">
 			
 			$(document).ready(function(){
+				$(".navbar-brand").css("color", "#fff");
+				$(".nav-item a").css("color", "#fff");
+
 				$(window).scroll(function(){
 			  		var scroll = $(window).scrollTop();
 				  	if (scroll > 100) {
-				  		$(".navbar-transparent").addClass("scroll");
+				  		$(".navbar").removeClass("navbar-transparent");
+				  		$(".navbar-brand").css("color", "#999");
+				  		$(".nav-item a").css("color", "#999");
 				  	}
 
 				  	else{
-					  	$(".navbar-transparent").removeClass("scroll");
+					  	$(".navbar").addClass("navbar-transparent");
+					  	$(".navbar-brand").css("color", "#fff");
+					  	$(".nav-item a").css("color", "#fff");
 				  	}
 			  	})
 			})

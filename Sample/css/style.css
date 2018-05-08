@@ -7,43 +7,63 @@
 
 body, p {
 	font-family: 'Roboto', sans-serif;
-	font-size: 15px;
+	font-size: 14px;
 	font-weight: 300;
-	line-height: 1.5rem;
+	line-height: 24px;
 	color: #999;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Roboto Slab', serif;
+	line-height: 24px;
+}
+
+h1 {
+
 }
 
 h2 {
 	font-weight: 700;
-	font-size: 2.25rem;
+	font-size: 36px;
 	color: #3c4858;
 }
 
 h3 {
-
+	font-weight: 700;
+	font-size: 26px;
 }
 
 h4 {
 	font-weight: 700;
-	font-size: 1.125rem;
+	font-size: 18px;
 	
 }
 
-.navbar-transparent {
-	padding-top: 30px;
-	transition: all 0.15s;
+h5 {
+	font-weight: 700;
+	font-size: 15px;
 }
 
-.scroll {
-	color: #999;
+h6 {
+	font-weight: 500;
+	font-size: 12px;
+}
+
+.navbar.navbar-transparent {
+	background-color: transparent !important;
+	box-shadow: none;
+	padding-top: 30px;
+	color: #fff !important;
+}
+
+.navbar {
+	border: 0;
+	color: #555 !important;
 	background-color: #fff;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	box-shadow: 0 4px 18px 0 rgba(0,0,0,.12), 0 7px 10px -5px rgba(0,0,0,.15);
+	transition: all 0.15s;
 }
 
 .page-header-wrapper {
@@ -67,9 +87,12 @@ h4 {
 	text-align: center;
 }
 
+.one h2.title {
+	margin-bottom: 30px;
+}
+
 .info {
 	padding-top: 50px;
-	padding-bottom: 50px;
 }
 
 .icon-chat {
@@ -85,11 +108,97 @@ h4 {
 }
 
 .info .icon>i {
-	font-size: 3.85rem;
+	font-size: 60px;
 }
 
 .info .info-title {
 	color: #3c4858;
 	margin-top: 20px;
 	margin-bottom: 10px;
+}
+
+
+/*wrapper two*/
+.two h2.title {
+	margin-bottom: 30px;
+}
+
+.section-space {
+	height: 50px;
+	display: block;
+}
+
+.two .card {
+	text-align: center;
+}
+
+.card-plain {
+	background: transparent;
+	box-shadow: none;
+}
+
+.card .card-header {
+	position: relative;
+    padding: 0;
+    z-index: 1;
+}
+
+.card .card-header.card-header-image {
+	border-radius: 6px;
+}
+
+.card .card-header.card-header-image img {
+	width: 100%;
+	border-radius: 6px;
+	box-shadow: 0 5px 15px -8px rgba(0,0,0,.24), 0 8px 10px -5px rgba(0,0,0,.2);
+}
+
+.card .card-header.card-header-image .colored-shadow {
+    transform: scale(.94);
+    top: 12px;
+    filter: blur(12px);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: -1;
+    transition: opacity .45s;
+    opacity: 0;
+}
+
+.card-plain .card-body {
+	padding-left: 5px;
+	padding-right: 5px; 
+}
+
+.card .card-title {
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+.card-title {
+	font-family: 'Roboto Slab', serif;
+}
+
+.card h4.card-title {
+	font-size: 18px;
+	font-weight: 700;
+	color: #3c4858;
+}
+
+.card h6.card-category {
+	text-transform: uppercase;
+}
+
+.two .card-description {
+	margin-top: 20px;
+}
+
+.two .btn {
+	margin-top: 20px;
+	border-radius: 20px;
+}
+
+.two .btn:hover {
+	    box-shadow: 0 14px 26px -12px rgba(244,67,54,.42), 0 4px 23px 0 rgba(0,0,0,.12), 0 8px 10px -5px rgba(244,67,54,.2);
 }
