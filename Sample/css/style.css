@@ -7,7 +7,7 @@
 
 body, p {
 	font-family: 'Roboto', sans-serif;
-	font-size: 14px;
+	font-size: 15px;
 	font-weight: 300;
 	line-height: 24px;
 	color: #999;
@@ -53,12 +53,10 @@ h6 {
 	background-color: transparent !important;
 	box-shadow: none;
 	padding-top: 30px;
-	color: #fff !important;
 }
 
 .navbar {
 	border: 0;
-	color: #555 !important;
 	background-color: #fff;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -74,7 +72,6 @@ h6 {
 
 .page-header {
 	height: 70vh;
-	/*background: linear-gradient(to bottom, rgba(51, 51, 51, 0.3), rgba(51, 51, 51, 0.2), rgba(51, 51, 51, 0.2), rgba(51, 51, 51, 0.2));*/
 	background-color: rgba(0,0,0,0.3);
 }
 
@@ -117,9 +114,59 @@ h6 {
 	margin-bottom: 10px;
 }
 
-
 /*wrapper two*/
+.two {
+	text-align: center;
+	position: relative;
+	background-image: url(../images/background.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+.two:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0, 47, 75, 0.8);
+}
+
 .two h2.title {
+	color: #fff;
+	margin-bottom: 30px;
+}
+
+.info {
+	padding-top: 50px;
+}
+
+.icon-chat {
+	color: #00bcd4;
+}
+
+.icon-verify {
+	color: #4caf50;
+}
+
+.icon-fingerprint {
+	color: #f44336;
+}
+
+.info .icon>i {
+	font-size: 60px;
+}
+
+.info .info-title {
+	color: #3c4858;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+/*wrapper three*/
+.three h2.title {
 	margin-bottom: 30px;
 }
 
@@ -128,7 +175,7 @@ h6 {
 	display: block;
 }
 
-.two .card {
+.three .card {
 	text-align: center;
 }
 
@@ -190,15 +237,15 @@ h6 {
 	text-transform: uppercase;
 }
 
-.two .card-description {
+.three .card-description {
 	margin-top: 20px;
 }
 
-.two .btn {
+.three .btn {
 	margin-top: 20px;
 	border-radius: 20px;
 }
 
-.two .btn:hover {
+.three .btn:hover {
 	    box-shadow: 0 14px 26px -12px rgba(244,67,54,.42), 0 4px 23px 0 rgba(0,0,0,.12), 0 8px 10px -5px rgba(244,67,54,.2);
 }
