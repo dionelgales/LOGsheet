@@ -1,1 +1,32 @@
 /* Your custom styles */
+
+.dg-wrapper {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+
+/*Section One*/
+.section-one {
+	background-image: url(../img/images/main.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 100vh;
+}
+
+.overlay-background {
+	background-color: rgba(51,51,51,0.4);
+	position: absolute;
+	height: 100vh;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+
+
+/*Section Two*/
+.section-two {
+
+}
+
