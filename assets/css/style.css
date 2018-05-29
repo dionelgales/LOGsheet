@@ -1,8 +1,40 @@
 /* Your custom styles */
 
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	color: #999;
+	line-height: 25px;
+}
+
 .dg-wrapper {
 	padding-top: 100px;
 	padding-bottom: 100px;
+}
+
+h1 { font-size: 53px; line-height: 25px;}
+h2 { font-size: 36px; line-height: 25px;}
+h3 { font-size: ; line-height: 25px;}
+h4 { font-size: 18px; line-height: 25px;}
+h5 { font-size: 17px; line-height: 25px;}
+h6 { font-size: 16px; line-height: 25px;}
+
+.title {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	color: #3c4858;
+    text-decoration: none;
+}
+
+.info-title {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+}
+
+.description {
+	color: #999;
 }
 
 
@@ -27,6 +59,37 @@
 
 /*Section Two*/
 .section-two {
-
+	text-align: center;
 }
 
+.section-two h2.title {
+	margin-bottom: 30px;
+}
+
+.info {
+	padding-top: 70px;
+}
+
+.icon.icon-info {
+	color: #00bcd4;
+	margin-bottom: 30px;
+}
+
+.info .icon>i {
+	font-size: 62px;
+}
+
+.info .info-title {
+	color: #3c4858;
+	margin-bottom: 20px;
+}
+
+.icon.icon-success {
+	color: #4caf50;
+	margin-bottom: 28px;
+}
+
+.icon.icon-danger {
+	color: #f44336;
+	margin-bottom: 28px;
+}
