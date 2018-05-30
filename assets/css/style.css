@@ -4,7 +4,7 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
-	font-size: 14px;
+	font-size: 15px;
 	color: #999;
 	line-height: 25px;
 }
@@ -37,6 +37,10 @@ h6 { font-size: 16px; line-height: 25px;}
 	color: #999;
 }
 
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before {
+	margin-left: 0px;
+	font-size: unset;
+}
 
 /*Section One*/
 .section-one {
@@ -73,6 +77,7 @@ h6 { font-size: 16px; line-height: 25px;}
 .icon.icon-info {
 	color: #00bcd4;
 	margin-bottom: 30px;
+	line-height: 1;
 }
 
 .info .icon>i {
@@ -86,10 +91,12 @@ h6 { font-size: 16px; line-height: 25px;}
 
 .icon.icon-success {
 	color: #4caf50;
-	margin-bottom: 28px;
+	margin-bottom: 30px;
+	line-height: 1;
 }
 
 .icon.icon-danger {
 	color: #f44336;
-	margin-bottom: 28px;
+	margin-bottom: 30px;
+	line-height: 1;
 }
