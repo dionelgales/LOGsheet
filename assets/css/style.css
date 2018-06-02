@@ -111,3 +111,37 @@ h6 { font-size: 16px; line-height: 30px;}
 	background-color: #f5f5f5;
 	/*text-align: center;*/
 }
+
+.section-three .nav-item {
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.section-three .nav-item .nav-link {
+	line-height: 30px;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 500;
+	min-width: 100px;
+	text-align: center;
+	color: #555;
+	border-radius: 30px;
+	padding: 10px 20px;
+	transition: all .3s;
+}
+
+.section-three .nav-item .nav-link.active {
+	background-color: #e91e63;
+	box-shadow: 0 5px 20px 0 rgba(0,0,0,0.2), 0 13px 24px -11px rgba(233,30,99,0.6);
+    color: #fff;
+}
+
+.section-three .nav-item .nav-link.active:hover {
+	background-color: #e91e63;
+	box-shadow: 0 5px 20px 0 rgba(0,0,0,0.2), 0 13px 24px -11px rgba(233,30,99,0.6);
+    color: #fff;
+}
+
+.section-three .nav-item .nav-link:hover {
+	background-color: rgba(200,200,200,0.2);
+}

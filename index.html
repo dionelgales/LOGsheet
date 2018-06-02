@@ -16,6 +16,8 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900|Roboto+Slab:300,400,700|Roboto:300,400,500,700,900" rel="stylesheet">
     <!-- Your custom styles (optional) -->
     <link href="assets/css/style.css" rel="stylesheet">
+
+
 </head>
 
 <body>
@@ -81,11 +83,11 @@
             <div class="row">
                 <div class="col-md-8 ml-auto mr-auto text-center">
                     <h2 class="title">Some of Our Awesome Products</h2>
-                    <ul class="nav">
-                        <li class="nav-item"><a class="nav-link" href="">All</a></li>
-                        <li class="nav-item"><a class="nav-link" href="">Web Design</a></li>
-                        <li class="nav-item"><a class="nav-link" href="">3D Design</a></li>
-                        <li class="nav-item"><a class="nav-link" href="">Logo Design</a></li>
+                    <ul class="nav py-4 justify-content-center">
+                        <li class="nav-item"><a class="nav-link active" href="#a">All</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#b">Web Design</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#c">3D Design</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#d">Logo Design</a></li>
                     </ul>
                 </div>
             </div>
@@ -122,6 +124,17 @@
     <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="assets/js/mdb.min.js"></script>
+
+        <script type="text/javascript">
+       
+        $(document).ready(function(){
+            $('.nav .nav-item a').click(function(){
+                $('.nav-link .active').removeClass('active');
+                $(this).addClass('active');
+            });
+        }); 
+
+    </script>
 </body>
 
 </html>
